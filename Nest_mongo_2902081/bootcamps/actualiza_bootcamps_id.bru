@@ -1,0 +1,21 @@
+meta {
+  name: actualiza_bootcamps_id
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3000/reviews/1
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+      "title": "Analitica de datos"
+  }
+}

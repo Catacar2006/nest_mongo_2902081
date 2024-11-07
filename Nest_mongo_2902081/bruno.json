@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Nest_mongo_2902081",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
